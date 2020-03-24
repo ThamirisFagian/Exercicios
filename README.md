@@ -1,2 +1,6 @@
-# Exercicios
-Trabalhos e exercicios em linguagem C
+# Exercicio
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+printf("Ola");
+}
