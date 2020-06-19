@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int main()
+{
+    char j;
+    
+    do
+    {
+        int a,b,c;
+
+        printf("Digite um valor do inquilino 1: "); 
+        scanf("%d",&a); 
+        
+        printf("Digite um valor do inquilino 2 : "); 
+        scanf("%d",&b); 
+        
+        c = a + b; 
+        fflush(stdin);
+        printf("A soma desses numero é: %d\n",c);
+        
+        printf ("Deseja continuar? (S/N)");
+        scanf ("%c" , &j);
+        j=toupper(j);
+        fflush(stdin);
+    } while (j!='N');
+    
+    return 0;
+
+} 
